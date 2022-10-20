@@ -33,8 +33,8 @@ var toDos = [];
         nineTA.classList.add('past');
     } else {
         nineTA.classList.remove('present');
-        nineTA.classList.remove('future');
-        nineTA.classList.add('past');
+        nineTA.classList.remove('past');
+        nineTA.classList.add('future');
     }
 
     if (dayjs().$H === 10) {
@@ -45,7 +45,7 @@ var toDos = [];
         tenTA.classList.add('past');
     } else {
         tenTA.classList.remove('present');
-        tenTA.classList.remove('future');
+        tenTA.classList.remove('past');
         tenTA.classList.add('future');
     }
 
